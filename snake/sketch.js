@@ -29,9 +29,9 @@ function draw() {
   scl = width / 13;
 
   // timer++;
-  snake.update();
-  snake.edges();
-  snake.display();
+//   snake.update();
+//   snake.edges();
+//   snake.display();
 
   // for (var x = 0; x < width; x += scl) {
   //   stroke(255, 0, 0);
