@@ -1,17 +1,18 @@
 var snake;
 var timer = 0;
 
-var size;
+// var size;
 var scl = 20;
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-  size = height * 6 / 7;
-}
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+//   size = height * 6 / 7;
+// }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  size = height * 6 / 7;
+  createCanvas(400, 400);
+  // createCanvas(windowWidth, windowHeight);
+  // size = height * 6 / 7;
   snake = new Snake();
 }
 
