@@ -3,8 +3,7 @@ function Snake() {
   this.len = 1;
   this.xdir = 1;
   this.ydir = 0;
-  var origin = createVector(0, 0);
-  body.push(origin);
+  body.push(createVector(0, 0));
 
 
 

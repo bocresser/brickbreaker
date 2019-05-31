@@ -1,5 +1,5 @@
 var snake;
-var timer = 0;
+// var timer = 0;
 
 // var size;
 var scl = 20;
@@ -23,12 +23,12 @@ function setup() {
 function draw() {
   rect(600, 600, 10, 10);
   
-  translate((width - size) / 2, (height - size) / 2);
+  // translate((width - size) / 2, (height - size) / 2);
   background(245);
 
   scl = width / 13;
 
-  timer++;
+  // timer++;
   snake.update();
   snake.edges();
   snake.display();
@@ -38,8 +38,6 @@ function draw() {
   //   fill(0);
   //   rect(x, 0, scl, scl);
   // }
-
-  // scl = floor(scl);
 }
 
 
