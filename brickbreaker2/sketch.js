@@ -47,7 +47,7 @@ function setup() {
   startX = boundary.x + tileWidth * 5;
   endX = width - boundary.x - tileWidth
   lineLength = endX - startX
-  sliderX = (startX + endX) / 2;
+  sliderX = startX + (endX - startX) / 4;
 
 
   paddle = new Paddle(createVector(width / 2, height * 4 / 5));
@@ -123,9 +123,9 @@ function draw() {
     ball.hitwalls();
     ball.hitfloor();
     paddle.hittile();
+    paddle.update();
   }
   ball.render();
-  paddle.update();
   paddle.render();
 
 
