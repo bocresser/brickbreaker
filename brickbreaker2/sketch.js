@@ -242,4 +242,5 @@ function mouseDragged() {
 
 function mouseReleased() {
   paddle.speed = 0;
+  sliderLocked = false;
 }
