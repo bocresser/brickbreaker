@@ -150,6 +150,7 @@ function draw() {
     ball.pos = createVector(width / 2, height / 2)
     ball.angle = createVector(0, 1);
     paddle.pos = createVector(width / 2, height * 4 / 5);
+    paddle.rotation = 0;
     wait = true;
     start = false;
     for (var t3 = tiles.length - 1; t3 >= 0; t3--) {
