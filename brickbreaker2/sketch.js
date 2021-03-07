@@ -245,3 +245,7 @@ function mouseReleased() {
   paddle.speed = 0;
   sliderLocked = false;
 }
+
+function touchMoved() {
+ return false; 
+}
