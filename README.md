@@ -1,1 +1,1 @@
-pigeonsoop.github.io/games/brickbreaker
+pigeonsoop.github.io/games/brickbreaker2
