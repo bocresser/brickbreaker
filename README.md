@@ -1,2 +1,2 @@
 # Brickbreaker
-bocresser.github.io/games/brickbreaker
+bocresser.github.io/brickbreaker
